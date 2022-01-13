@@ -1,0 +1,14 @@
+
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Yennyffer/Config-Servervs2.git
+          default-label: main
+  security:
+    user:
+      name: root
+      password: pr0y3ct1
