@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Yennyffer/proyecto01
+          uri: https://github.com/Yennyffer/Config-data
           searchPaths: config-data
           default-label: main
   security:
